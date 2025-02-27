@@ -1,0 +1,10 @@
+# Configurazione di LightSetup
+# Non modificare manualmente questa sezione a meno che non sai cosa stai facendo
+
+# Versione della configurazione
+config-version: 1
+
+# Lampade attive
+# Questa sezione verrà popolata automaticamente dal plugin
+lamps:
+# Formato: world:x:y:z: valore_tick

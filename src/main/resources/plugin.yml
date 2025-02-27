@@ -1,0 +1,18 @@
+name: LightSetup
+version: '1.0-SNAPSHOT'
+main: dev.pyro.lightSetup.LightSetup
+api-version: '1.21'
+authors: [Pyro18]
+website: 'github.com/Pyro18'
+description: A plugin to control redstone lamps with a magic wand
+
+commands:
+  setlights:
+    description: 'Set up light effects with a magic wand'
+    usage: '/<command> <number of ticks>'
+    permission: lightsetup.setlights
+
+permissions:
+  lightsetup.setlights:
+    description: 'Allows players to use the setlights command'
+    default: op
